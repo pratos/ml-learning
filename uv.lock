@@ -387,43 +387,6 @@ wheels = [
 ]
 
 [[package]]
-name = "dl-learning"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "accelerate" },
-    { name = "einops" },
-    { name = "jupyter" },
-    { name = "matplotlib" },
-    { name = "ninja" },
-    { name = "packaging" },
-    { name = "pillow" },
-    { name = "requests" },
-    { name = "timm" },
-    { name = "torch" },
-    { name = "torchaudio" },
-    { name = "torchvision" },
-    { name = "transformers" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "accelerate", specifier = ">=0.33.0" },
-    { name = "einops", specifier = ">=0.8.0" },
-    { name = "jupyter", specifier = ">=1.0.0" },
-    { name = "matplotlib" },
-    { name = "ninja", specifier = ">=1.11.1.1" },
-    { name = "packaging", specifier = ">=24.1" },
-    { name = "pillow", specifier = ">=10.4.0" },
-    { name = "requests", specifier = ">=2.32.3" },
-    { name = "timm", specifier = ">=1.0.9" },
-    { name = "torch", specifier = ">=2.4.0" },
-    { name = "torchaudio", specifier = ">=2.4.0" },
-    { name = "torchvision", specifier = ">=0.19.0" },
-    { name = "transformers", specifier = ">=4.44.2" },
-]
-
-[[package]]
 name = "einops"
 version = "0.8.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1097,6 +1060,43 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/ef/c8/f0173fe3bf85fd891aee2e7bcd8207dfe26c2c683d727c5a6cc3aec7b628/mistune-3.0.2.tar.gz", hash = "sha256:fc7f93ded930c92394ef2cb6f04a8aabab4117a91449e72dcc8dfa646a508be8", size = 90840 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f0/74/c95adcdf032956d9ef6c89a9b8a5152bf73915f8c633f3e3d88d06bd699c/mistune-3.0.2-py3-none-any.whl", hash = "sha256:71481854c30fdbc938963d3605b72501f5c10a9320ecd412c121c163a1c7d205", size = 47958 },
+]
+
+[[package]]
+name = "ml-learning"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "accelerate" },
+    { name = "einops" },
+    { name = "jupyter" },
+    { name = "matplotlib" },
+    { name = "ninja" },
+    { name = "packaging" },
+    { name = "pillow" },
+    { name = "requests" },
+    { name = "timm" },
+    { name = "torch" },
+    { name = "torchaudio" },
+    { name = "torchvision" },
+    { name = "transformers" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "accelerate", specifier = ">=0.33.0" },
+    { name = "einops", specifier = ">=0.8.0" },
+    { name = "jupyter", specifier = ">=1.0.0" },
+    { name = "matplotlib", specifier = ">=3.9.2" },
+    { name = "ninja", specifier = ">=1.11.1.1" },
+    { name = "packaging", specifier = ">=24.1" },
+    { name = "pillow", specifier = ">=10.4.0" },
+    { name = "requests", specifier = ">=2.32.3" },
+    { name = "timm", specifier = ">=1.0.9" },
+    { name = "torch", specifier = ">=2.4.0" },
+    { name = "torchaudio", specifier = ">=2.4.0" },
+    { name = "torchvision", specifier = ">=0.19.0" },
+    { name = "transformers", specifier = ">=4.44.2" },
 ]
 
 [[package]]
